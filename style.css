@@ -1,0 +1,67 @@
+section {
+  /* background-color: rebeccapurple; */
+}
+
+img {
+  object-fit: cover;
+}
+
+.section-special {
+  width: 90%;
+  margin: 2rem 0;
+}
+
+.banner {
+  height: 85vh;
+  background: linear-gradient(
+      135deg,
+      rgba(152, 83, 4, 0.3),
+      rgba(10, 205, 10, 0.2)
+    ),
+    url("https://images.unsplash.com/photo-1506408334286-246f3e68526c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXR2fGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner__content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+.btn-cta,
+.card {
+  background-color: rgb(129, 205, 16);
+}
+
+.top-section a,
+.section-title,
+label {
+  color: rgb(90, 143, 12);
+}
+.about .row:first-of-type {
+  margin-bottom: 8rem;
+}
+
+.card {
+  height: 250px;
+}
+
+.card i {
+  font-size: 24px;
+}
+
+footer {
+  background-color: rgb(58, 90, 10);
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    min-height: 700px;
+  }
+  .about img {
+    height: 100%;
+  }
+}

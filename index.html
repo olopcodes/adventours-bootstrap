@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-light">
+    <!-- cards -->
+    <!-- footer -->
+    <div class="container-xl">
+      <div
+        class="top-section d-md-flex d-none justify-content-between pt-md-3 pt-xl-5"
+      >
+        <span>
+          <a class="nav-link fw-semibold" href="mailto:support@mail.com"
+            >customerserv@adventours.com</a
+          >
+        </span>
+        <span
+          ><a class="nav-link fw-semibold" href="tel:+1800-555-9283"
+            >1800-555-9283</a
+          ></span
+        >
+      </div>
+    </div>
+    <!-- banner -->
+    <section class="section-special rounded-3 banner mx-auto position-relative">
+      <div class="banner__content text-center position-absolute">
+        <h1 class="display-2 text-uppercase px-2 py-1 mb-3">adventours</h1>
+        <p class="fs-4 text-light">
+          Your next adventure is just one click away. Make memories with our
+          tours that will last a lifetime!
+        </p>
+        <div class="d-flex gap-3 justify-content-center">
+          <a href="#whyus" class="btn btn-cta fw-semibold text-capitalize"
+            >why us?</a
+          >
+          <a
+            href="#contact"
+            class="btn btn-outline-light fw-semibold text-capitalize"
+            >contact us</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- about -->
+    <section class="about py-5 d-flex align-items-center">
+      <div class="container-xl h-100">
+        <div class="row h-100 d-flex justify-content-between">
+          <div
+            class="col-md-6 about-1__content text-center text-md-start mb-5 mb-md-0"
+          >
+            <h2 class="section-title display-4 mb-3">
+              Come see what all the noise is about
+            </h2>
+            <p class="mb-5">
+              We take adventuring to another level. Our tours are meticulously
+              designed to ensure people get the most out of them.
+            </p>
+
+            <ol class="list-group list-group-numbered text-start">
+              <li class="list-group-item">A transport to and from site.</li>
+              <li class="list-group-item">
+                A team of experienced guides with every party.
+              </li>
+              <li class="list-group-item">
+                Daily food provided by the locals.
+              </li>
+              <li class="list-group-item">
+                Curated sites to explore for cultural immersion.
+              </li>
+            </ol>
+          </div>
+          <div class="col-md-5 about-1__img d-flex justify-content-center">
+            <img
+              class="img-fluid rounded-2"
+              src="https://media.istockphoto.com/id/1301294985/photo/group-of-latin-tourists-driving-a-4x4-bike-in-costa-rica.jpg?b=1&s=612x612&w=0&k=20&c=t96bAAMJgihWlxphUTMH4eFHijR03VZX_b8_laZeoHs="
+              alt="people riding an atv"
+            />
+          </div>
+        </div>
+        <div class="row about-2">
+          <div class="col-md-6 order-1">
+            <h2 class="section-title display-4 mb-3">
+              Providing unparalleled experiences and prices
+            </h2>
+            <p class="lead mb-5">
+              Many of our customers are repeat <span>adventourers</span> and
+              refer friends to explore with us.
+            </p>
+
+            <figure>
+              <blockquote class="blockquote">
+                <p class="fs-6">
+                  We love going on these adventures. This is our 5th time, we
+                  learn something new about ourselves, the world, and a
+                  different culture everytime.
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer text-end">
+                Mary Ann Jones
+                <cite title="Source Title">A Google review of us</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 order-0">
+            <img
+              class="img-fluid rounded-2"
+              src="https://images.pexels.com/photos/17405151/pexels-photo-17405151/free-photo-of-man-standing-inside-a-rocky-cave-with-spread-arms.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="person in cave"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- why cards -->
+    <section id="whyus" class="py-5">
+      <div class="container-xl">
+        <div class="card-group d-flex gap-4 flex-wrap justify-content-center">
+          <div class="card border-0 rounded-2">
+            <div
+              class="card-body d-flex justify-content-center align-items-center flex-column"
+            >
+              <i class="fa-solid fa-map"></i>
+
+              <h5 class="section-title fs-4">Detailed Maps</h5>
+              <p class="card-text text-light text-center">
+                We provide detailed digital maps of all our tours.
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0 rounded-2">
+            <div
+              class="card-body d-flex justify-content-center align-items-center flex-column"
+            >
+              <i class="fa-solid fa-users"></i>
+
+              <h5 class="section-title fs-4">Trusted by the people</h5>
+              <p class="card-text text-light text-center">
+                We are the top rated company in the industry.
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0 rounded-2">
+            <div
+              class="card-body d-flex justify-content-center align-items-center flex-column"
+            >
+              <i class="fa-solid fa-lock"></i>
+
+              <h5 class="section-title fs-4">Safety unmatched</h5>
+              <p class="card-text text-light text-center">
+                Safety is a top concern, and we go above and beyond.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why cards end -->
+
+    <!-- contact -->
+    <section id="contact" class="py-5">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="section-title display-2">Contact Us:</h2>
+          </div>
+          <div class="col-md-6">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputName4" class="form-label fs-4 fw-semibold"
+                  >Name</label
+                >
+                <input type="text" class="form-control" id="inputName4" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label fs-4 fw-semibold"
+                  >Email</label
+                >
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-12">
+                <label for="floatingTextarea" class="fw-semibold fs-4"
+                  >Your message</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                  rows="10"
+                  cols="30"
+                ></textarea>
+              </div>
+              <div class="col-12 mt-3">
+                <button type="submit" class="btn btn-cta btn-lg">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
+
+    <footer class="p-3 text-center text-light">
+      <div class="container-xl">
+        <small>&copy; 2024. Adventours.</small>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
